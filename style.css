@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    height: 150vh;
+    background: linear-gradient(to bottom, #1B2C4C 50%, #d3d3d3 50%);
+}
+
+.top-text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.top-text h1{
+    font-size: 3em;
+    font-style: oblique;
+    color: #fff;
+}
+.top-text p{
+    font-size: large;
+    font-style: normal;
+    color: #fff;
+}
+
+.pricing-card-container{
+    display: flex;
+    gap: 20px;
+}
+.pricing-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0, 1);
+    transition: transform 0.3s ease;
+    border-color: #1b63dd;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+}
+.pricing-card:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+}
+.pricing-header{
+    background-color: #464646;
+    width: 250px;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    flex-direction: row;
+}
+.pricing-header h4{
+    margin-left: 5px;
+}
+.pricing-price{
+    color: #0e0069;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-price h3{
+    font-size: 2em;
+    text-align: center;
+}
+.pricing-body{
+    padding: 20px;
+}
+.buy-btn{
+    background-color: #1b63dd;
+    color: #fff;
+    padding: 10px;
+    border: #0e0069;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.bottom-text{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+.faq-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+.faq1, .faq2{
+    width: 30%;
+    height: max-content;
+    margin-top: 20px;
+}
+.faq1, .faq2 h2{
+    text-align: start;
+}
+.faq1, .faq2 p{
+    text-align: justify;
+}
